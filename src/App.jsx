@@ -14,12 +14,13 @@ import Influencers from './Components/Influencers';
 const App = () => {
    return (
       <>
-         <Navbar/>
+
+      <Navbar/>
          <Routes>
             <Route path='/' element={<Home/>}/>
             <Route path='/ourwork' element={<Ourwork/>}  />
             <Route path='/influencers' element={<Influencers/>} />
-            
+
          </Routes>
       </>
    );

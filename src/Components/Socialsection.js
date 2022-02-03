@@ -6,23 +6,28 @@ import img from './image/img1.jpg';
 
 
 
-const Secondsection = () => {
+const Socialsection = () => {
     return(
         <>
             <section>
-            <div className=" row social-container">
-            <div className="col col-6 social-heading">
-            <h1>
-            THE WORLD'S TOP INFLUENCER MARKETING AGENCY HAS BECOME ONE OF THE GLOBE'S FASTEST GROWING FULL SERVICE MARKETING FIRMS
-            </h1>
-          </div>
-          <div className="col col-6 graph" >
-            <img src={img} className="sec-img"/>
-          </div>
+        <div className='row'>
+        <div className="social-container">
+            <div className="row g-0">
+            <div className="col-md-6">
+            <div className="social-body">
+                <h2 className="social-title">THE WORLD'S TOP INFLUENCER MARKETING AGENCY HAS BECOME ONE <br/>OF THE GLOBE'S FASTEST <br/>GROWING FULL SERVICE<br/> MARKETING FIRMS</h2>
+            </div>
         </div>
-            </section>
+            <div className="col-md-6">
+                <img src={img} class="img-fluid rounded-start" alt="..."/>
+            </div>
+    </div>
+    </div>
+
+        </div>
+    </section>
         </>
     );
 };
 
-export default Secondsection;
+export default Socialsection;
